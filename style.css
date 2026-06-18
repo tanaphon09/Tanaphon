@@ -12,9 +12,9 @@ body {
     color: #333;
 }
 
-/* Header */
+/* Header (เปลี่ยนเป็นสีเขียวเข้มตามสั่งแล้วครับ) */
 header {
-    background: #006400;
+    background: #006400; /* สีเขียวเข้ม */
     color: white;
     text-align: center;
     padding: 60px 20px;
