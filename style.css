@@ -66,19 +66,33 @@ section h2 {
     color: #222;
 }
 
-/* Skills */
+/* Skills (อัปเดตแยกสีตามไลฟ์สไตล์ ไม่ใช้สีเทา/สีน้ำเงินล้วนแล้ว) */
 #skills ul {
     list-style: none;
     margin-top: 15px;
 }
 
 #skills li {
-    background: #0077ff;
     color: white;
     display: inline-block;
-    padding: 10px 15px;
+    padding: 10px 20px;
     margin: 5px;
     border-radius: 20px;
+    font-weight: bold;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* สีเฉพาะของแต่ละสกิลตัวตึง */
+.skill-game {
+    background: linear-gradient(135deg, #ff007f, #7928ca); /* สีม่วง-ชมพู นีออนเกมเมอร์ */
+}
+
+.skill-pro {
+    background: linear-gradient(135deg, #ff4e50, #f9d423); /* สีส้ม-เหลือง ตัวตึง */
+}
+
+.skill-sport {
+    background: linear-gradient(135deg, #11998e, #38ef7d); /* สีเขียวสนามบอล */
 }
 
 /* Footer */
