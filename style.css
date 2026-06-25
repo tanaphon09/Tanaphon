@@ -123,7 +123,17 @@ footer a:hover {
         margin: 15px;
         padding: 20px;
     }
+
+body {
+    font-family: Arial, sans-serif;
 }
+
+header {
+    text-align: center;
+}
+
+/* วางเพิ่มตรงท้ายไฟล์ */
+
 .achievement {
     background: #f9f9f9;
     padding: 15px;
