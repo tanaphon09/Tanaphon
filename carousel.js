@@ -3,7 +3,6 @@
 // ============================================================
 const CARDS = [
   'url("cat.jpg")',
-  'url("m1.jpg")',
   'url("cat2.png")',
   'url("cat3.jpg")',
   'url("cat4.jpg")',
